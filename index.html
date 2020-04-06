@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+		<title>我的在线简历</title>
+		<style type="text/css">
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				background: #eee;
+				margin: 20px 0;
+			}
+
+			article {
+				width: 21cm;
+				min-height: 29.7cm;
+				background: white;
+				margin: 0 auto;
+				overflow: auto;
+				padding: 1em;
+			}
+		</style>
+		<style media="print">
+			body {
+				margin: 0;
+			}
+		</style>
+		<link rel="stylesheet" href="style/index.css" type="text/css">
+		<style>
+			@media (max-width:500px){
+				body{
+					margin:0;
+				}
+				article{
+					width:auto;
+					height:auto;
+				}
+				.bio img{
+					display:none;
+				}
+				.skills .wrapper{
+					flex-direction: column;
+				}
+				.skills>.wrapper>#main{
+					width:auto;
+				}
+				.jobs header{
+					flex-direction: column;
+				}
+				.jobs header >h3,
+				.jobs header >h4,
+				.jobs header >span{
+					margin:0;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<article>
+			<section class="bio">
+				<h1>吴浩</h1>
+				<img src="img/2.jpg" alt="头像加载失败!" width="100" height="100">
+				<p>
+					男 | 22岁 | 前端开发工程师 | 武汉/西安
+				</p>
+				<p>
+					手机: 13037175382 | 微信: wh05241030 | 邮箱: 1272689028@qq.com
+				</p>
+			</section>
+			<section class="education">
+				<h2>教育经历</h2>
+				<p>
+					<span><time>2017年9月</time>~<time>2021年6月</time></span> 武汉纺织大学 物联网专业 本科
+				</p>
+			</section>
+			
+            <section class="skills">
+            	<h2>技能</h2>
+            	<div class="wrapper">
+            		<ul>
+            			<li>熟悉<strong> html(html5)</strong> / <strong>css(css3)</strong> / <strong>JS</strong>等前端技术</li>
+            			<li>熟练掌握静态页面制作技巧，能将<strong>设计稿还原</strong>成页面</li>
+            			<li>熟悉<strong>前后端分离</strong>技术，包括AJAX，跨域，前端路由，Cookie，Session等</li>
+            			<li>熟练掌握<strong>Vue全家桶</strong>的使用，包括VueCli，VueRouter，Vuex 等</li>
+            			<li>熟练掌握<strong>React全家桶</strong>的使用，包括 create-react-app，ReactRouter，Redux 等</li>
+            			<li>熟悉<strong>ES6</strong>，包括 let / const / Promise / 析构赋值</li>
+            			<li>了解<strong>Webpack</strong>的配置和优化</li>
+            		</ul>
+            		<div id="main"></div>
+            	</div>
+            </section>
+
+			<section class="projects">
+				<h2>项目经历</h2>
+				<ol>
+					<li>
+						<header>
+							<h3>谷UI</h3>
+							<span>
+								<a href="#">测试链接</a>
+								<a href="#">项目预览</a>
+							</span>
+
+						</header>
+						<p>
+							一款基于 <strong>React</strong> / <strong>TypeScript</strong> / <strong>Webpack</strong>的UI框架
+						</p>
+						<p>
+							主要组件有日期选择器，弹出框，<strong>下拉更新</strong>，树形选择器等。
+							已被公司前端同事广泛使用。有效提高了前端团队的开发效率。
+						</p>
+						<p>
+							制作过程中让我对TypeScript和单元测试有了新的认识，我将其总结成两篇博客;
+						</p>
+					</li>
+
+					<li>
+						<header>
+							<h3>写代码了.com</h3>
+							<span>
+								<a href="#">测试链接</a>
+								<a href="#">项目预览</a>
+							</span>
+						</header>
+						<p>
+							这是一个基于<strong>Rails</strong> 和 <strong>Vue</strong> 的多页面应用
+						</p>
+						<p>
+							主要功能包括微信登录，手机验证，直播，点播，反盗版，答题系统，课程管理系统。
+							从数据库设计到前端展示，但是由我主导，另外两名前端辅助我。
+						</p>
+						<p>
+							该系统大幅提高了教学效率，优化教学流程，受到公司和用户的好评。
+						</p>
+					</li>
+
+					<li>
+						<header>
+							<h3>旺财记录</h3>
+							<span>
+								<a href="#">测试链接</a>
+								<a href="#">项目预览</a>
+							</span>
+						</header>
+						<p>
+							一个基于 <strong>React</strong> / <strong>TypeScript</strong> 的移动端单页面应用.
+						</p>
+						<p>
+							这是从我自己的需求出发，设计出的简易记账应用，特点是<strong>快速记账</strong>，而且可以通过
+							图表查看自己的消费习惯。
+						</p>
+						<p>
+							该项目大量使用了 <strong>React Hooks</strong>，让我对 Hooks 有了深刻的理解和应用。
+						</p>
+					</li>
+				</ol>
+			</section>
+
+			<section class="openSource">
+				<h2>开源项目</h2>
+				<ul>
+					<li>
+						<header>
+							<h3>自己写的 DOM 库</h3>
+							<a href="#">源码链接</a>
+						</header>
+						<p>实现了元素选择，元素创建，<strong>事件委托</strong>，<strong>滑动手势</strong>等常见功能</p>
+					</li>
+					<li>
+						<header>
+							<h3>会动的皮卡丘</h3>
+							<span>
+								<a href="#">测试链接</a>
+								<a href="#">项目预览</a>
+							</span>
+						</header>
+						<p>这是我在学习 CSS3 和<strong>动画</strong>时制作的一个可爱作品</p>
+
+					</li>
+					<li>
+						<header>
+							<h3>简易画板</h3>
+							<span>
+								<a href="#">测试链接</a>
+								<a href="#">项目预览</a>
+							</span>
+
+						</header>
+						<p>我在学习 <strong>Canvas</strong> 时做的一个小作品</p>
+					</li>
+				</ul>
+			</section>
+			
+			<section class="jobs">
+				<h2>工作经历</h2>
+				<ol>
+					<li>
+						<header>
+							<h3>千里IT协会（校内组织）</h3>
+							<h4>Java和Web组成员</h4>
+							<span><time>2018年6月</time>~<time>2019年9月</time></span>
+						</header>
+						<ul>
+							<li>
+								学习<strong>Java</strong>相关的基础知识和相关的应用实例;
+							</li>
+							<li>
+								学习<strong>Html</strong>、<strong>CSS</strong>、<strong>Javascript</strong>等前端基础知识;
+							</li>
+							<li>撰写活动方案，组织策划社团的成立大会、竞选会、小组成员招新等活动;
+							</li>
+						</ul>
+					</li>
+			
+					<li>
+						<header>
+							<h3>导师相关项目（物联网方向）</h3>
+							<h4>小组成员</h4>
+							<span><time>2019年4月</time>~<time>2019年7月</time></span>
+						</header>
+						<ul>
+							<li>小组成员讨论，优化设计方案。</li>
+							<li>
+								熟悉整个项目的<strong>构架体系</strong>，学习相关的<strong>构建思路</strong>。
+							</li>
+							<li>
+								按照导师相应的要求，完成部分<strong>代码测试</strong>工作。
+							</li>
+						</ul>
+					</li>
+					
+					<li>
+						<header>
+							<h3>高招工作</h3>
+							<h4>小组负责人</h4>
+							<span><time>2018年7月</time>~<time>2018年9月</time></span>
+						</header>
+						<ul>
+							<li>
+								<strong>策划活动方案</strong>，参与相关的招生活动;
+							</li>
+							<li>
+								组织和协调小组成员开展相应工作，调动组员工作积极性。
+							</li>
+						</ul>
+					</li>
+				</ol>
+			</section>
+			
+			<section class="others">
+				<h2>其他链接</h2>
+				<ul>
+					<li>
+						<a href="">我的博客</a>，目前已有 21 篇技术文章
+					</li>
+					<li>
+						<a href="https://github.com/wu241617">我的 GitHub</a>，过去三个月 有200次提交
+					</li>
+				</ul>
+			</section>
+			
+		</article>
+
+		<script src="JS/echarts.min.js"></script>
+		<script src="JS/main.js"></script>
+	</body>
+
+</html>

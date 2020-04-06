@@ -1,0 +1,162 @@
+article {
+	padding-top: 30px;
+}
+
+p {
+	margin: .4em 0;
+}
+
+h1 {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+ol,
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: #999;
+	text-decoration: none;
+	border-bottom: 1px solid;
+}
+
+p,
+li {
+	color: #666;
+}
+
+strong {
+	font-weight: normal;
+}
+
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+.bio {
+	position: relative;
+}
+
+.bio img {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.projects {}
+
+.projects p {
+	color: #666;
+}
+
+.projects strong {
+	color: #f60;
+}
+
+.projects>ol {
+	margin-top: 0;
+	list-style-position: inside;
+	padding: 0;
+}
+
+.projects>ol>li {
+	margin-bottom: 24px;
+}
+
+.projects>ol>li>header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.projects>ol>li h3 {
+	display: inline-block;
+}
+
+.openSource>h2 {}
+
+.openSource>ul>li {
+	margin-bottom: 24px;
+}
+
+.openSource header {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.openSource strong {
+	color: #f60;
+}
+
+.skills>.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.skills>.wrapper>:first-child {
+	margin-right: 24px;
+}
+
+.skills>.wrapper>#main {
+	width: 500px;
+	height: 270px;
+}
+
+.skills>.wrapper>ul {
+	line-height: 1.8;
+	margin-bottom: 8px;
+	color: #666;
+}
+
+.skills>.wrapper strong {
+	color: #f60;
+}
+
+.jobs {}
+
+.jobs>h2 {}
+
+.jobs>ol {}
+
+.jobs>ol>li {
+	margin: 12px 0;
+	color: #666;
+}
+
+.jobs header {
+	display: flex;
+	color: #666;
+	margin-bottom: 12px;
+}
+
+.jobs header>h3 {
+	font-size: 18px;
+	color: #666;
+}
+
+.jobs header>h4 {
+	margin-left: 1em;
+	font-size: 17px;
+}
+
+.jobs header>span {
+	font-size: 17px;
+	margin-left: auto;
+}
+
+.jobs strong {
+	color: #f60;
+}
+
+h4,
+h5,
+h6 {
+	font-weight: normal;
+}
