@@ -4,7 +4,7 @@ HTML/CSS/JS写的个人前端简历；
 移动端的适配：
 ****
 1，引用淘宝网，
-<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">  
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">    
 2，同时使用了媒体查询，  
 <style media="print">  
 	body {  
