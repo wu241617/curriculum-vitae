@@ -1,5 +1,4 @@
-# curriculum-vitae
-HTML/CSS/JS写的个人前端简历；
+# curriculum-vitae HTML/CSS/JS写的个人前端简历；
 ****
 ### 移动端的适配：
 ****
