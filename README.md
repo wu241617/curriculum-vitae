@@ -3,7 +3,7 @@ HTML/CSS/JS写的个人前端简历；
 ****
 移动端的适配：
 ****
-1，引用淘宝网，  
+1，引用淘宝网，
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">  
 2，同时使用了媒体查询，  
 <style media="print">  
@@ -24,6 +24,6 @@ ECharts图表：
 ****
 1，下载echarts.min.js文件  
 2，网页中引用相关文件（有顺序，echarts.min.js在main.js之前）  
-<script src="JS/echarts.min.js"></script>  
+<script src="JS/echarts.min.js"></script>    
 <script src="JS/main.js"></script>  
 3,自己在main.js中，参考ECharts官网查看应用实例，进行改造。  
