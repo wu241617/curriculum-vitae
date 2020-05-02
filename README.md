@@ -1,6 +1,7 @@
-# curriculum-vitae HTML/CSS/JS写的个人前端简历；
+# curriculum-vitae 
+### HTML/CSS/JS写的个人前端简历；
 ****
-### 移动端的适配：
+#### 移动端的适配：
 ****
 - 引用淘宝网，
 ```
@@ -25,7 +26,7 @@ article {
 	padding: 1em;  
 	}  
 ```
-### ECharts图表：  
+#### ECharts图表：  
 ****
 - 下载echarts.min.js文件  
 - 网页中引用相关文件（有顺序，echarts.min.js在main.js之前）
