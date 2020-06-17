@@ -3,7 +3,7 @@
 ****
 #### 移动端的适配：
 ****
-- 引用淘宝网，
+- 引用淘宝网移动端适配样式，
 ```
 <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover"> 
 ```
